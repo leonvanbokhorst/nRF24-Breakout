@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Volumes/Dropbox/Dropbox/KiCad/001.NRF24-Breakout/NRF24-breakout.sch)
-    (date "2017 August 11, Friday 15:44:42")
+    (date "2017 August 11, Friday 18:11:13")
     (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -59,12 +59,12 @@
         (pin (num 4) (name IRQ) (type input))
         (pin (num 5) (name MOSI) (type input))
         (pin (num 6) (name CSN) (type input))
-        (pin (num 7) (name Vcc) (type input)))))
+        (pin (num 7) (name Vcc) (type output)))))
   (libraries
-    (library (logical conn)
-      (uri "/Library/Application Support/kicad/library/conn.lib"))
     (library (logical nrf24_schematic_library)
-      (uri /Volumes/Dropbox/Dropbox/KiCad/001.NRF24-Breakout/nrf24_schematic_library.lib)))
+      (uri /Volumes/Dropbox/Dropbox/KiCad/001.NRF24-Breakout/nrf24_schematic_library.lib))
+    (library (logical conn)
+      (uri "/Library/Application Support/kicad/library/conn.lib")))
   (nets
     (net (code 1) (name "Net-(J1-Pad8)")
       (node (ref U1) (pin 7))

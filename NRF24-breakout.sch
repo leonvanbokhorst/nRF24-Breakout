@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:NRF24-breakout-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -56,7 +57,7 @@ F 3 "" H 7150 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L nRF24 U1
+L nRF24-RESCUE-NRF24-breakout U1
 U 1 1 5971E2DB
 P 5400 3350
 F 0 "U1" H 5400 2750 60  0000 C CNN
