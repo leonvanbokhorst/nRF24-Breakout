@@ -83,4 +83,21 @@ Wire Wire Line
 	6350 3650 6950 3650
 Wire Wire Line
 	6350 3750 6950 3750
+$Comp
+L CP1 C1
+U 1 1 598DE981
+P 6650 4000
+F 0 "C1" H 6675 4100 50  0000 L CNN
+F 1 "10uF" H 6675 3900 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 6650 4000 50  0001 C CNN
+F 3 "" H 6650 4000 50  0001 C CNN
+	1    6650 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6500 4000 6500 3050
+Connection ~ 6500 3050
+Wire Wire Line
+	6800 4000 6800 3750
+Connection ~ 6800 3750
 $EndSCHEMATC
